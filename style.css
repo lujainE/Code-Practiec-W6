@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arima', cursive;
+}
+body{
+    background-color: #29567D;
+    background-image: url("./img/protruding-squares (1).svg")
+}
+.container{
+    height: 840px;
+    width: 100%;
+    position: relative;
+}
+#header{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#header input{
+    font-size: 16px;
+    padding: 5px 10px 5px 20px;
+    border: 1px solid #ddd;
+}
+#sup-header{
+    height: 50px;
+    background-image: blue;
+    padding: 20px 5px 0px 5px;
+}
+#sup-header {
+    margin-left:44%;
+    color: #e6e8ea;
+}
+#sup-header #text{
+    display: flex;
+}
+#sup-header #submit{
+    background-image:linear-gradient(#f7f7d2, #ffd343, #ffd343) ;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    margin-left: 65px;
+}
+.switch input {
+    display:none;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #4f90c6;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #ffc400;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #2195f3;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(55px);
+    -ms-transform: translateX(55px);
+    transform: translateX(75px);
+}
+
+.Large{
+    display: none;
+}
+.Large, .Normal{
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size: 12px;
+}
+input:checked+ .slider .Large
+{display: block;}
+input:checked + .slider .Normal
+{display: none;}
+
+/**/
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;}
+
+.container-fluid{
+    background-color: #2b5b84;
+    border-top: 1px solid #4f90c6;
+    box-shadow:2px 10px 8px 5px #1e415e;
+    padding-bottom: 10px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    background-color: #1e415e;  
+    color: #0080FF;
+}
+.nav-tabs .nav-item .nav-link:hover {
+        background-color: #285070;
+        color: #E6E908;
+}
+.nav-tabs .nav-item .nav-link  {
+    background-color: #4f90c6;
+    color: #FFF;
+}
+.nav-tabs .nav-item .bg-green{
+    border-right: 1px solid #2b5b84;
+}
+#text3 a{
+    color: #e6e8ea;
+}
+#text5 a{
+    color: #0080FF;
+}
+
+.tab-pane{
+    padding: 15px ;
+}
+
+.tab-content p{
+    color: #e6e8ea;
+}
+.tab-content .tab-pane #text0{
+    display: flex;
+}
+.tab-content .tab-pane #text0 ul{
+    color: #e6e8ea;
+    margin-top: 105px;
+}
+.tab-content .tab-pane #text1 h1{
+    color: #ffc400;
+    font-weight:bolder;
+}
+.tab-content .tab-pane #text1{
+    text-align: center;
+    margin-left: 80px;
+}
+
+.tab-content .tab-pane h4{
+    color: #ffd343;
+    font-weight: bold;
+}
+.tab-content .tab-pane a{
+    color: #E6E908;
+}
+.tab-content .tab-pane #text2 .button {
+    background-image:linear-gradient(#f7f7d2, #ffd343, #ffd343) ;
+    border-radius: 5%;
+    color: rgb(29, 29, 29);
+    padding: 15px 32px;
+    margin-bottom:15px ;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.features {
+    background-color: #1e415e;
+    box-shadow:2px 10px 8px 5px #1e415e;
+    padding: 40px 25px;
+}
+.tab-content .tab-pane .features-inner {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+.tab-content .tab-pane #text3 h3 {
+    color: #ffd343;
+}
+.tab-content .tab-pane #text3 ul {
+    margin: 0;
+    line-height: 1.6;
+    color: #e6e8ea;
+}
+
+#text4{
+    display: flex;
+}
+
+tr:hover td:not(:first-child){
+    background: #ffd343c4;
+}
+th:first-child{
+    color: #ffd343;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #e6e8ea;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
