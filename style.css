@@ -34,7 +34,7 @@ body{
     display: flex;
 }
 #sup-header #submit{
-    background-image:linear-gradient(#f7f7d2, #4f90c6, #ffd343) ;
+    background-image:linear-gradient(#f7f7d2, #ffd343, #ffd343) ;
     border: none;
     border-radius: 5%;
     text-align: center;
