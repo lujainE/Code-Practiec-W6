@@ -16,6 +16,7 @@ body{
     display: flex;
     padding-bottom: 10px;
     padding-top: 10px;
+    justify-content: space-between;
 }
 #header input{
     font-size: 16px;
@@ -28,7 +29,8 @@ body{
     padding: 20px 5px 0px 5px;
 }
 #sup-header {
-    margin-left:35%;
+    position: relative;
+    align-content: flex-end;
     color: #e6e8ea;
 }
 #gsearch{
@@ -201,6 +203,7 @@ input:checked + .slider .Normal
     grid-column-gap: 45px;
     grid-row-gap: 45px;
 }
+/**/
 .tab-content .tab-pane #text3 h3 {
     color: #ffd343;
 }
