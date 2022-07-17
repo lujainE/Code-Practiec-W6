@@ -142,6 +142,8 @@ input:checked + .slider .Normal
 .nav-tabs .nav-item .bg-green{
     border-right: 1px solid #2b5b84;
 }
+/**/
+
 #text3 a{
     color: #e6e8ea;
 }
@@ -152,7 +154,6 @@ input:checked + .slider .Normal
 .tab-pane{
     padding: 15px ;
 }
-
 .tab-content p{
     color: #e6e8ea;
 }
@@ -236,6 +237,9 @@ td, th {
 
 @media only screen and (max-width:480px) {
     .container{
-        width: 4000px; 
+        width: 400px; 
+    }
+    .features-inner{
+        display: block;
     }
 }
