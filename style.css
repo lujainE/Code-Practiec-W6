@@ -234,3 +234,8 @@ td, th {
     padding: 8px;
 }
 
+@media only screen and (max-width:480px) {
+    .container{
+        width: 4000px; 
+    }
+}
